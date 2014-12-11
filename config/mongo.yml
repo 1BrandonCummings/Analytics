@@ -9,7 +9,7 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: voxa-app
+  database: test
 
 test:
   <<: *defaults
